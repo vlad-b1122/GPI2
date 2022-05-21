@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<project default="build"  name="autoGenerateAll" >
+    <target name="build">
+        <exec executable="/bin/bash">
+            <arg value="autoGenerateAll.sh">
+            </arg>
+        </exec>
+    </target>
+</project>

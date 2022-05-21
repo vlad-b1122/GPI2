@@ -1,0 +1,52 @@
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2022.05.21 13:13:19 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /home/vlad/Escritorio/PRACTICAFINAL/GPI2/sonarqube-9.4.0.54424/temp
+2022.05.21 13:13:19 ERROR app[][o.s.application.App] Startup failure
+java.lang.IllegalArgumentException: Unable to create shared memory : 
+	at org.sonar.process.sharedmemoryfile.AllProcessesCommands.<init>(AllProcessesCommands.java:103)
+	at org.sonar.application.AppFileSystem.reset(AppFileSystem.java:63)
+	at org.sonar.application.App.start(App.java:53)
+	at org.sonar.application.App.main(App.java:81)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.io.FileNotFoundException: /home/vlad/Escritorio/PRACTICAFINAL/GPI2/sonarqube-9.4.0.54424/temp/sharedmemory (Permiso denegado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at org.sonar.process.sharedmemoryfile.AllProcessesCommands.<init>(AllProcessesCommands.java:100)
+	... 9 common frames omitted
+<-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2022.05.21 13:13:53 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /home/vlad/Escritorio/PRACTICAFINAL/GPI2/sonarqube-9.4.0.54424/temp
+2022.05.21 13:13:53 ERROR app[][o.s.application.App] Startup failure
+java.lang.IllegalArgumentException: Unable to create shared memory : 
+	at org.sonar.process.sharedmemoryfile.AllProcessesCommands.<init>(AllProcessesCommands.java:103)
+	at org.sonar.application.AppFileSystem.reset(AppFileSystem.java:63)
+	at org.sonar.application.App.start(App.java:53)
+	at org.sonar.application.App.main(App.java:81)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.io.FileNotFoundException: /home/vlad/Escritorio/PRACTICAFINAL/GPI2/sonarqube-9.4.0.54424/temp/sharedmemory (Permiso denegado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at org.sonar.process.sharedmemoryfile.AllProcessesCommands.<init>(AllProcessesCommands.java:100)
+	... 9 common frames omitted
+<-- Wrapper Stopped
