@@ -1,0 +1,6 @@
+projectKey=twentyTwentyOne
+serverUrl=http://localhost:9000
+serverVersion=9.4.0.54424
+dashboardUrl=http://localhost:9000/dashboard?id=twentyTwentyOne
+ceTaskId=AYDnRxKvz9bVvRlqxpy5
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYDnRxKvz9bVvRlqxpy5
