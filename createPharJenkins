@@ -2,22 +2,12 @@ pipeline {
     agent any
 
     stages {
-        stage('Move scanner out') {
-            steps {
-			sh '''#!/bin/bash
-			mv ~/Escritorio/PRACTICAFINAL/GPI2/twentytwentyone/twentytwentyone/sonar-scanner-cli-4.7.0.2747-linux ~/Escritorio/PRACTICAFINAL/GPI2'''
-            }
-        }
-        stage('Generate phar') {
+        stage('CreatePhar') {
             steps {
 			sh '''#!/bin/bash
 			cd twentytwentyone/
-			php --define phar.readonly=0 generatePhar.php'''
-            }
-        }
-        stage('Move scanner in') {
-            steps {
-			sh '''#!/bin/bash
+			mv ~/Escritorio/PRACTICAFINAL/GPI2/twentytwentyone/twentytwentyone/sonar-scanner-cli-4.7.0.2747-linux ~/Escritorio/PRACTICAFINAL/GPI2
+			php --define phar.readonly=0 generatePhar.php
 			mv ~/Escritorio/PRACTICAFINAL/GPI2/sonar-scanner-cli-4.7.0.2747-linux ~/Escritorio/PRACTICAFINAL/GPI2/twentytwentyone/twentytwentyone'''
             }
         }
