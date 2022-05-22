@@ -12,10 +12,7 @@ mv ~/Escritorio/PRACTICAFINAL/GPI2/twentytwentyone/twentytwentyone/sonar-scanner
 #---------Generar el phar
 php --define phar.readonly=0 generatePhar.php
 #---------Volver a poner el scanner dentro
-mv ~/Escritorio/PRACTICAFINAL/GPI2/sonar-scanner-cli-4.7.0.2747-linux ~/Escritorio/PRACTICAFINAL/GPI2/twentytwentyone/twentytwentyone
-#SonarQube twentytwentyone audit
-cd twentytwentyone
-export PATH=$PATH:/home/vlad/Escritorio/PRACTICAFINAL/GPI2/twentytwentyone/twentytwentyone/sonar-scanner-cli-4.7.0.2747-linux/sonar-scanner-4.7.0.2747-linux/bin'''            }
+mv ~/Escritorio/PRACTICAFINAL/GPI2/sonar-scanner-cli-4.7.0.2747-linux ~/Escritorio/PRACTICAFINAL/GPI2/twentytwentyone/twentytwentyone'''         }
         }
         stage('Test') {
             steps {
