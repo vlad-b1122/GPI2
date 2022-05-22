@@ -13373,3 +13373,11 @@ Caused by: java.net.ConnectException: Conexión rehusada
 2022.05.21 20:39:02 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[COMPUTE_ENGINE] from [/home/vlad/Escritorio/PRACTICAFINAL/GPI2/sonarqube-9.4.0.54424]: /usr/lib/jvm/java-13-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/home/vlad/Escritorio/PRACTICAFINAL/GPI2/sonarqube-9.4.0.54424/temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Dcom.redhat.fips=false -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.4.0.54424.jar:/home/vlad/Escritorio/PRACTICAFINAL/GPI2/sonarqube-9.4.0.54424/lib/jdbc/h2/h2-2.1.210.jar org.sonar.ce.app.CeServer /home/vlad/Escritorio/PRACTICAFINAL/GPI2/sonarqube-9.4.0.54424/temp/sq-process4048156329380329404properties
 2022.05.21 20:39:10 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
 2022.05.21 20:39:10 INFO  app[][o.s.a.SchedulerImpl] SonarQube is operational
+INT trapped.  Shutting down.
+INT trapped.  Forcing immediate shutdown.
+2022.05.21 20:49:09 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [Compute Engine]: 130
+2022.05.21 20:49:09 INFO  app[][o.s.a.SchedulerImpl] Process[Compute Engine] is stopped
+JVM did not exit on request, terminated
+JVM exited on its own while waiting to kill the application.
+JVM exited in response to signal SIGKILL (9).
+<-- Wrapper Stopped

@@ -2373,3 +2373,7 @@ Connection is broken: "session closed" [90067-210]
 2022.05.21 20:43:13 INFO  ce[AYDn7iU88ChuVn2Knqm8][o.s.c.t.s.ComputationStepExecutor] Trigger refresh of Portfolios and Applications | status=SUCCESS | time=0ms
 2022.05.21 20:43:13 INFO  ce[AYDn7iU88ChuVn2Knqm8][o.s.c.t.p.a.p.PostProjectAnalysisTasksExecutor] Webhooks | globalWebhooks=0 | projectWebhooks=0 | status=SUCCESS | time=5ms
 2022.05.21 20:43:13 INFO  ce[AYDn7iU88ChuVn2Knqm8][o.s.c.t.CeWorkerImpl] Executed task | project=easyBuggy | type=REPORT | id=AYDn7iU88ChuVn2Knqm8 | submitter=admin | status=SUCCESS | time=6490ms
+2022.05.21 20:49:09 INFO  ce[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2022.05.21 20:49:09 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
+2022.05.21 20:49:09 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Gracefully stopping workers...
+2022.05.21 20:49:09 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped

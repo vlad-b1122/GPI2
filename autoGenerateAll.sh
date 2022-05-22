@@ -1,5 +1,5 @@
 #!/bin/bash
-#TwantyTwentyOne  Phar
+#TwentyTwentyOne  Phar
 cd twentytwentyone/
 #---------Mover el scanner fuera para generar el phar
 mv ~/Escritorio/PRACTICAFINAL/GPI2/twentytwentyone/twentytwentyone/sonar-scanner-cli-4.7.0.2747-linux ~/Escritorio/PRACTICAFINAL/GPI2

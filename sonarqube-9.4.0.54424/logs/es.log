@@ -2702,3 +2702,7 @@ Caused by: java.nio.file.NoSuchFileException: /home/vlad/Escritorio/PRACTICAFINA
 2022.05.21 20:38:39 INFO  es[][o.e.n.Node] started
 2022.05.21 20:38:39 INFO  es[][o.e.g.GatewayService] recovered [7] indices into cluster_state
 2022.05.21 20:38:43 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[components][0]]]).
+2022.05.21 20:49:09 INFO  es[][o.e.n.Node] stopping ...
+2022.05.21 20:49:09 INFO  es[][o.e.n.Node] stopped
+2022.05.21 20:49:09 INFO  es[][o.e.n.Node] closing ...
+2022.05.21 20:49:09 INFO  es[][o.e.n.Node] closed

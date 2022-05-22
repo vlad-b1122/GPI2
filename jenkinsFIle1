@@ -1,0 +1,31 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+sh '''#!/bin/bash
+#TwentyTwentyOne  Phar
+cd twentytwentyone/
+#---------Mover el scanner fuera para generar el phar
+mv ~/Escritorio/PRACTICAFINAL/GPI2/twentytwentyone/twentytwentyone/sonar-scanner-cli-4.7.0.2747-linux ~/Escritorio/PRACTICAFINAL/GPI2
+#---------Generar el phar
+php --define phar.readonly=0 generatePhar.php
+#---------Volver a poner el scanner dentro
+mv ~/Escritorio/PRACTICAFINAL/GPI2/sonar-scanner-cli-4.7.0.2747-linux ~/Escritorio/PRACTICAFINAL/GPI2/twentytwentyone/twentytwentyone
+#SonarQube twentytwentyone audit
+cd twentytwentyone
+export PATH=$PATH:/home/vlad/Escritorio/PRACTICAFINAL/GPI2/twentytwentyone/twentytwentyone/sonar-scanner-cli-4.7.0.2747-linux/sonar-scanner-4.7.0.2747-linux/bin'''            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
+}
