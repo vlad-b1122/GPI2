@@ -1,0 +1,44 @@
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2022.05.27 16:00:15 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /home/alumno/Escritorio/Intento2/GPI2/sonarqube-9.4.0.54424/temp
+2022.05.27 16:00:15 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on [HTTP: 127.0.0.1:9001, TCP: 127.0.0.1:41913]
+2022.05.27 16:00:16 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[ELASTICSEARCH] from [/home/alumno/Escritorio/Intento2/GPI2/sonarqube-9.4.0.54424/elasticsearch]: /home/alumno/Escritorio/Intento2/GPI2/sonarqube-9.4.0.54424/elasticsearch/bin/elasticsearch
+2022.05.27 16:00:16 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2022.05.27 16:00:27 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2022.05.27 16:00:27 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[WEB_SERVER] from [/home/alumno/Escritorio/Intento2/GPI2/sonarqube-9.4.0.54424]: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/home/alumno/Escritorio/Intento2/GPI2/sonarqube-9.4.0.54424/temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Dcom.redhat.fips=false -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.4.0.54424.jar:/home/alumno/Escritorio/Intento2/GPI2/sonarqube-9.4.0.54424/lib/jdbc/h2/h2-2.1.210.jar org.sonar.server.app.WebServer /home/alumno/Escritorio/Intento2/GPI2/sonarqube-9.4.0.54424/temp/sq-process1401927593887782611properties
+2022.05.27 16:00:39 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2022.05.27 16:00:39 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[COMPUTE_ENGINE] from [/home/alumno/Escritorio/Intento2/GPI2/sonarqube-9.4.0.54424]: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/home/alumno/Escritorio/Intento2/GPI2/sonarqube-9.4.0.54424/temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Dcom.redhat.fips=false -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.4.0.54424.jar:/home/alumno/Escritorio/Intento2/GPI2/sonarqube-9.4.0.54424/lib/jdbc/h2/h2-2.1.210.jar org.sonar.ce.app.CeServer /home/alumno/Escritorio/Intento2/GPI2/sonarqube-9.4.0.54424/temp/sq-process5992769920259821508properties
+2022.05.27 16:00:45 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2022.05.27 16:00:45 INFO  app[][o.s.a.SchedulerImpl] SonarQube is operational
+INT trapped.  Shutting down.
+2022.05.27 16:00:52 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [Compute Engine]: 130
+2022.05.27 16:00:52 INFO  app[][o.s.a.SchedulerImpl] Process[Compute Engine] is stopped
+INT trapped.  Forcing immediate shutdown.
+JVM did not exit on request, terminated
+JVM exited on its own while waiting to kill the application.
+JVM exited in response to signal SIGKILL (9).
+<-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2022.05.27 16:01:41 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /home/alumno/Escritorio/GPI2/sonarqube-9.4.0.54424/temp
+2022.05.27 16:01:41 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on [HTTP: 127.0.0.1:9001, TCP: 127.0.0.1:42871]
+2022.05.27 16:01:41 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[ELASTICSEARCH] from [/home/alumno/Escritorio/GPI2/sonarqube-9.4.0.54424/elasticsearch]: /home/alumno/Escritorio/GPI2/sonarqube-9.4.0.54424/elasticsearch/bin/elasticsearch
+2022.05.27 16:01:41 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2022.05.27 16:01:53 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2022.05.27 16:01:53 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[WEB_SERVER] from [/home/alumno/Escritorio/GPI2/sonarqube-9.4.0.54424]: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/home/alumno/Escritorio/GPI2/sonarqube-9.4.0.54424/temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Dcom.redhat.fips=false -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.4.0.54424.jar:/home/alumno/Escritorio/GPI2/sonarqube-9.4.0.54424/lib/jdbc/h2/h2-2.1.210.jar org.sonar.server.app.WebServer /home/alumno/Escritorio/GPI2/sonarqube-9.4.0.54424/temp/sq-process14624025901827499406properties
+2022.05.27 16:02:05 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2022.05.27 16:02:06 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[COMPUTE_ENGINE] from [/home/alumno/Escritorio/GPI2/sonarqube-9.4.0.54424]: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/home/alumno/Escritorio/GPI2/sonarqube-9.4.0.54424/temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Dcom.redhat.fips=false -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.4.0.54424.jar:/home/alumno/Escritorio/GPI2/sonarqube-9.4.0.54424/lib/jdbc/h2/h2-2.1.210.jar org.sonar.ce.app.CeServer /home/alumno/Escritorio/GPI2/sonarqube-9.4.0.54424/temp/sq-process14682883796884995014properties
+2022.05.27 16:02:11 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2022.05.27 16:02:11 INFO  app[][o.s.a.SchedulerImpl] SonarQube is operational
+INT trapped.  Shutting down.
+INT trapped.  Forcing immediate shutdown.
+JVM did not exit on request, terminated
+JVM exited on its own while waiting to kill the application.
+JVM exited in response to signal SIGKILL (9).
+<-- Wrapper Stopped
