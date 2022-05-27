@@ -10,12 +10,12 @@ http.port: '9001'
 node.attr.rack_id: sonarqube
 http.cors.enabled: 'true'
 http.host: 127.0.0.1
-path.logs: /home/alumno/Escritorio/GPI2/sonarqube-9.4.0.54424/logs
+path.logs: /home/alumno/Escritorio/Intento2/GPI2/sonarqube-9.4.0.54424/logs
 discovery.seed_hosts: 127.0.0.1
 cluster.initial_master_nodes: 127.0.0.1
-transport.port: '42871'
+transport.port: '43357'
 node.master: 'true'
-path.data: /home/alumno/Escritorio/GPI2/sonarqube-9.4.0.54424/data/es7
+path.data: /home/alumno/Escritorio/Intento2/GPI2/sonarqube-9.4.0.54424/data/es7
 node.name: sonarqube
 network.tcp.reuse_address: 'true'
 discovery.initial_state_timeout: 30s

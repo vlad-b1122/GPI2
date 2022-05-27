@@ -2,5 +2,5 @@ projectKey=twentyTwentyOne
 serverUrl=http://localhost:9000
 serverVersion=9.4.0.54424
 dashboardUrl=http://localhost:9000/dashboard?id=twentyTwentyOne
-ceTaskId=AYEF5dAroNmn762Zbwn3
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AYEF5dAroNmn762Zbwn3
+ceTaskId=AYEGAyFXNnMTSrvRbQnd
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYEGAyFXNnMTSrvRbQnd
