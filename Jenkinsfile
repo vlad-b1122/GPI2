@@ -6,7 +6,7 @@ pipeline {
             steps {
 			sh '''#!/bin/bash
 			cd webview/
-            ./gradlew build
+            #./gradlew build
             '''
             }
         }
@@ -14,7 +14,7 @@ pipeline {
             steps {
 			sh '''#!/bin/bash
 			cd webview/
-            ./gradlew assemble
+            #./gradlew assemble
             '''
             }
         }
@@ -22,7 +22,7 @@ pipeline {
             steps {
 			sh '''#!/bin/bash
 			cd webview/
-            ./gradlew test
+            #./gradlew test
             '''
             }
         }
