@@ -5,7 +5,7 @@ pipeline {
         stage('Construccion') {
             steps {
 			sh '''#!/bin/bash
-			cd webapp/
+			cd webview/
             ./gradlew build
             '''
             }
@@ -13,7 +13,7 @@ pipeline {
         stage('Empaquetado') {
             steps {
 			sh '''#!/bin/bash
-			cd webapp/
+			cd webview/
             ./gradlew assemble
             '''
             }
@@ -21,7 +21,7 @@ pipeline {
         stage('Pruebas') {
             steps {
 			sh '''#!/bin/bash
-			cd webapp/
+			cd webview/
             ./gradlew test
             '''
             }
